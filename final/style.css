@@ -1,0 +1,133 @@
+/*fichier css pour la présentation*/
+
+
+
+
+
+
+
+
+/*-----------page1-------------*/
+
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------page2-------------*/
+
+
+.pagination a {
+    color: red; /*ici j'ai changé la couleur*/
+    border:1px solid black; /*ici j'ai mis un cadre autour des numéros des pages*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------page3-------------*/
+
+
+.pagination a {
+    color: black;
+    border: none;
+}
+
+.pagination a.active {  /*colorie le fond du num page active en vert"*/
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {    /*colorie le fond lorsqu'on passe la souris*/
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------page4-------------*/
+
+
+.pagination a {
+    border-radius: 5px; /*arrondit les angles*/
+    transition: border-radius 5s;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

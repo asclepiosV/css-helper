@@ -1,0 +1,16 @@
+@import "stylepage2.css";
+
+
+.pagination a {
+    color: black;
+    border: none;
+}
+
+.pagination a.active {  /*colorie le fond du num page active en vert"*/
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {    /*colorie le fond lorsqu'on passe la souris*/
+    background-color: #ddd;
+}

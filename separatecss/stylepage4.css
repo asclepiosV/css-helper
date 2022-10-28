@@ -1,0 +1,8 @@
+@import "stylepage3.css";
+
+.pagination a {
+    border-radius: 5px; /*arrondit les angles*/
+    transition: border-radius 5s;
+    border: 1px solid black;
+    margin: 2px;
+}

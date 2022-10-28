@@ -1,0 +1,7 @@
+@import "stylepage1.css";
+
+
+.pagination a {
+    color: red; /*ici j'ai changé la couleur*/
+    border:1px solid black; /*ici j'ai mis un cadre autour des numéros des pages*/
+}
